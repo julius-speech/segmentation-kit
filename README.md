@@ -6,7 +6,9 @@
 
 This is a handy toolkit to do phoneme segmentation (aka phoneme alignments) using Julius.
 Given pairs of speech audio file and its transcription, this toolkit perform Viterbi alignment to get the
-beginning and ending time of each phoneme.  The output is saved in WaveSurfer Label Format, so you can view the
+beginning and ending time of each phoneme.
+
+The output is saved in *WaveSurfer* Label Format, so you can view the
 results in WaveSurfer.
 
 Currently this toolkit supports only Japanese text/utterances, since we have only free acoustic model of Japanese.
