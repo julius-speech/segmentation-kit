@@ -1,4 +1,4 @@
-(Please Scroll down more for Japanese text)
+(Please Scroll down for Japanese text)
 
 # Speech segmentation toolkit using Julius
 
@@ -27,8 +27,7 @@ Sample files `wav/sample.wav` and `wav/sample.txt` are included in the package.
 - The audio file (.wav) should be in 16 kHz, 16 bit, PCM (no compression) WAV format.
 - The transcription file (.txt) should be in UTF-8 encoding.
 
-Transcription file should be a phoneme sequence.  The phoneme set should corresponds to those in the acoustic model
-for the alignment.
+Transcription file should contain a phoneme sequence describing the content of the corresponding .wav file.  The phoneme set should corresponds to those in the acoustic model for the alignment.
 
 If you want to insert long pauses within the certain point of the utterance, place `sp` (or
 other equivalent pause model in the acoustic model) explicitly in the transcription.  If the pause model has skipping 
