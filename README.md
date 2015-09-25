@@ -1,6 +1,6 @@
 (Please Scroll down for Japanese text)
 
-# Speech segmentation toolkit using Julius
+# Speech Segmentation Toolkit using Julius
 
 ## What's this?
 
