@@ -79,9 +79,8 @@ The resulted alignment times are rounded to 10ms unit, since feature extraction 
   
 ## 動作要件
 
-Windowsで動作確認しています。
-動作には Perl が必要です。Perl for Windows　をインストールして下さい。
-（動作確認は mingw で行いました）
+Linux および Windowsで動作します。動作には Perl が必要です。
+Windowsには Active Perl, Perl for Windows あるいは Perl for cygwin / mingw をインストールして下さい。
 
 ## データの準備 ///////////////////////////////////////////////////
 
