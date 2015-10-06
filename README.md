@@ -17,8 +17,13 @@ for Julius.
 
 ## Requirement
 
-- Windows
-- Perl (ActivePerl, Perl for Windows, or mingw perl may work)
+This toolkit runs on Linux and Windows.
+
+It requires Perl.  On Ubuntu, do:
+```
+% sudo apt-get install
+```
+On Windows, install Perl on your machine (ActivePerl, Perl for Windows, or perl on mingw/cywgin may work)
 
 ## Preparing data
 
