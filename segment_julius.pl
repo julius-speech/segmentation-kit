@@ -43,7 +43,11 @@ $leave_dict_flag=0;
 $debug_flag=0;
 
 ## julius executable
-$juliusbin=".\\bin\\julius-4.3.1.exe";
+if ($^O =~ /MSWin/){
+    $juliusbin=".\\bin\\julius-4.3.1.exe";
+} else {
+    $juliusbin="./bin/julius-4.3.1";
+}
 
 ## acoustic model
 $hmmdefs="./models/hmmdefs_monof_mix16_gid.binhmm"; # monophone model
