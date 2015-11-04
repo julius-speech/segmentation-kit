@@ -4,7 +4,7 @@
 
 ## What's this?
 
-This is a handy toolkit to do phoneme segmentation (aka phoneme alignments) for speech audio file using Julius.
+This is a handy toolkit to do phoneme segmentation (aka phoneme alignments) for speech audio file using [Julius](https://github.com/julius-speech/julius).
 Given pairs of speech audio file and its transcription, this toolkit perform Viterbi alignment to get the
 beginning and ending time of each phoneme.
 
