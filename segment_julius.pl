@@ -73,8 +73,8 @@ while ($f = readdir $dh) {
     next unless $f =~ /\.(wav|WAV)$/;
     $filepath = "$datadir/$f";
     next unless -f $filepath;
-    ($basename, $datadir, $ext) = fileparse($filepath, qr/\..*$/);
-    push(@files, $datadir . $basename);
+    ($basename) = (fileparse($filepath, qr/\..*$/))[0];
+    push(@files, "$datadir/$basename");
 }
 closedir $dh;
 
